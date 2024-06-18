@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hackerdocumentation.css">
+  <title>thical hacking documentation</title>
+
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <header><span><a>HACKER'S REALM</a></span></header>
+
+      <span class="nav-bar">
+                <a href="#Recommended_Tools" class="nav-link">Recommended Tools</a>
+                <a href="#Advanced_Hacking_Techniques" class="nav-link">Advanced Hacking Techniques</a>
+                <a href="#Ethical_Hacking_Principles" class="nav-link">Ethical Hacking Principles</a>
+                <a href="#Some_Hacking_Tools" class="nav-link">Some Hacking Tools</a>
+                <a href="#Some_Hacking_Techniques" class="nav-link">Some Hacking Techniques</a>
+            </span>
+
+    </nav>
+    <section class="introduction">
+      <h1>INTRODUCTION</h1>
+      <p>
+        HELLO! &#128075;, WELCOME TO HACKER'S REALM.
+      </p>
+      <P>
+        AS OUR GUEST, I'M SAMMY SHOWING YOU THE ROOMS HERE, LETS BEGIN.
+      </P>
+      This program provides comprehensive documentation for advanced hacking techniques, cybersecurity principles, and
+      ethical hacking methodologies.
+      <span class="intrest-button">
+              <a href="hook your intrest &#128071;"></a>hook your intrest &#128071;</a>
+            </span>
+    </section>
+
+  </header>
+  <main id="main-doc">
+    <section class="main-section" id="Recommended_Tools">
+      <header>
+        <h1>Recommended Tools</h1>
+      </header>
+      <code>
+      <div class="segment">
+        <span>
+
+         <p>
+            The following tools are recommended for advanced hacking:<br><br>
+
+            <a href="">nmap</a> - Network scanning and reconnaissance tool <br><br>
+            <a href="">Metasploit</a> - Penetration testing framework <br><br>
+            <a href="">Wireshark</a> - Network protocol analyzer
+         </p>
+         </span>
+        <span style="background-color:green">
+            <img src="hacker-images/CMIT-Nov-Blog-6-Types-of-Hackers-hats.png" alt="" class="image">
+         </span>
+      </div>
+      </code>
+    </section>
+    <section class="main-section" id="Advanced_Hacking_Techniques">
+
+      <header>
+        <h1>Advanced Hacking Techniques</h1>
+      </header>
+      <code>
+      <div class="segment">
+        <span>
+
+             <p>
+                Explore advanced hacking techniques including:
+             </p>
+              <p>
+                SQL injection
+                Cross-site scripting (XSS)
+                Buffer overflow attacks
+              </p>  
+            </span>
+
+        <span style="background-color: rgb(14, 3, 112);">
+                <img src="hacker-images/hackers-for-hire.jpg" alt="hacker demo pic"  class="image">
+             </span>
+      </div>
+</code>
+    </section>
+    <section class="main-section" id="Ethical_Hacking_Principles">
+
+      <header>
+        <h1>Ethical Hacking Principles</h1>
+      </header>
+      <code>
+      <div class="segment">
+        <span>
+
+
+               <p>Learn about the ethical principles guiding the practice of hacking:</p> 
+               <p>
+
+                Obtain proper authorization before conducting security assessments
+                Respect user privacy and confidentiality
+                Report vulnerabilities responsibly
+            
+             </p>
+            </span>
+
+        <span style="background-color: whitesmoke">
+                <img src="hacker-images/1_7L5fF2zfF74EYYFfdFkLPQ.png" alt="types of hackers"  class="image">
+             </span>
+      </div>
+      </code>
+    </section>
+
+    <section class="main-section" id="Some_Hacking_Tools">
+
+      <header>
+        <h1>Some Hacking Tools</h1>
+      </header>
+      <code>
+      <div>
+        <h1>Nmap</h1>
+        <h1> Purpose:</h1>
+
+        <p>Nmap is primarily used for network discovery and security auditing. It helps in mapping out networks,
+          identifying</p> <br>
+        <p> what devices are running on them, and discovering the services those devices are offering.</p>
+        Typical Uses:
+
+        <ol>
+          <li>Network Inventory:<br>
+       Identifying what devices are on a network.</li>
+          <li> Open Ports and Services: <br>
+      Discovering open ports and the services running on them.</li>
+          <li>Operating System Detection:<br>
+       Determining the OS and versions running on networked devices.</li>
+          <li> Vulnerability Detection: <br>
+     Identifying vulnerable services and configurations.</li>
+        </ol>
+      </div>
+
+
+      <div>
+        <h1>Metasploit</h1>
+        <p>Metasploit is a framework for developing, testing, and executing exploit code against a remote target
+          machine.
+          It’s widely used for penetration testing and security research.</p>
+
+        <h1> Typical Uses:</h1>
+
+        <ol>
+          <li>Exploit Development: <br>
+          Creating and customizing exploits.</li>
+
+          <li>Payload Delivery: <br>
+        Delivering payloads to compromised systems.</li>
+
+          <li>Post-Exploitation:<br>
+       Performing actions on compromised systems to gather further information or to maintain control.</li>
+
+          <li>Vulnerability Assessment:<br>
+      Testing the effectiveness of security measures.</li>
+        </ol>
+      </div>
+</code>
+    </section>
+
+    <section class="main-section" id="Some_Hacking_Techniques">
+
+      <header>
+        <h1>Some Hacking Techniques<h1>
+      </header>
+      <code>
+      <div>
+         <h1>SQL Injection</h1>
+          <p>SQL Injection is a code injection technique that exploits a vulnerability in an application’s software by
+            manipulating SQL queries made to a database. An attacker can insert or "inject" malicious SQL code into a
+            query,
+            allowing them to retrieve, alter, or delete data.</p>
+          <span>
+      <h1>Typical Uses:</h1>
+
+      <p>
+        <a>Data Theft:</a> Extracting sensitive information from the database.<br>
+        <a>Data Manipulation:</a> Modifying or deleting data within the database.<br>
+        <a>Authentication Bypass:</a> Logging into applications without proper credentials.<br>
+        <a>Database Corruption:</a> Damaging or corrupting database records.<br>
+      </p>
+      </span>
+
+          <span>
+        <h1>Prevention:</h1>
+
+      <p><a>Use Prepared Statements (Parameterized Queries):</a> Ensures that user input is treated as data, not executable code.<br>
+      <a>Input Validation:</a> Validate and sanitize all user inputs.<br>
+      <a>Least Privilege:</a> Ensure the database account used by the application has the least privileges necessary.</p>
+      
+      </span>
+      </div>
+      <span>
+        <h1>Types:</h1>
+
+      <p><a href="">Stored XSS:</a> Malicious script is stored on the server (e.g., in a database) and served to users.<br>
+      <a href="">Reflected XSS:</a>Malicious script is reflected off a web server, such as in an error message or search result.<br>
+      <a href="">DOM-based XSS:</a> The vulnerability exists in the client-side code rather than the server-side.<br></p>
+      </span>
+
+      <h1> Prevention:</h1>
+
+      <ol>
+        <li>Input Sanitization:
+          Remove or escape potentially dangerous characters.</li><br>
+        <li>Output Encoding:
+          Encode data before rendering it in the browser (e.g., HTML encoding).</li><br>
+        <li>Content Security Policy (CSP):
+          Implement a CSP to restrict the sources from which content can be loaded.</li><br>
+      </ol>
+      </code>
+    </section>
+
+  </main>
+
+
+</body>
+<footer class="footer">
+  <p>Email:<a href="kwizelasamson@gmail.com"> kwizelasamson@gmail.com</a></span>
+  <p>&copy;2024 by Samson Kwizela</span>
+</footer>
+
+</html>
