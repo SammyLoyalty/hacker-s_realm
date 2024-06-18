@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(73, 74, 85, 0.767);
+    width: 100%;
+    align-items: center;
+    height: 45px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 5px 5px 5px 10px;
+}
+
+
+p {
+    color: lightgray;
+}
+
+nav a {
+    color: white;
+
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav .name {
+    font-weight: bold;
+
+}
+
+nav .nav-bar a {
+    margin: 0 12px 0 42px;
+    font-size: 12px;
+
+
+}
+
+.main-content {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.main-content p {
+    font-size: 13px;
+}
+
+.main-content h1,
+p,
+span {
+    margin-top: 15px;
+    display: block;
+}
+ 
+
+.main-content .mywork {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 13px;
+    align-content: center;
+    border-radius: 15px;
+
+}
+
+.main {
+    padding: 10px;
+}
+
+.buttons a {
+    background-color: rgb(54, 54, 161);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.segment span{
+    width: 100%;
+    margin: 0px;
+}
+
+img {
+    width: 250px;
+    padding: 10px;
+    float: right;
+    height: auto;
+}
+
+.segment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(14, 13, 13);
+    height: 100vh;
+    text-align: center;
+
+}
+.segment h2, p, .buttons{
+    margin: 80px;
+}
+
+.image {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.min-image {
+    width: 100px;
+}
+.one-img{
+    width: inherit;   
+}
+.mywork{
+    background-color: blueviolet;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 13, 13) ;
+    padding: 10px;
+    align-items: center;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
